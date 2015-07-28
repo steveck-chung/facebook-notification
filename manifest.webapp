@@ -1,0 +1,28 @@
+{
+  "name": "facebook notification",
+  "description": "Send notification for unread facebook messages and events",
+  "developer": {
+    "name": "Steve Chung"
+  },
+  "locales": {
+    "en-US": {
+      "name": "facebook notification",
+      "description": "Send notification for unread facebook messages and events"
+    }
+  },
+  "default_locale": "en-US",
+  "package_path": "package.zip",
+  "role": "addon",
+  "type": "certified",
+  "customizations": [
+    {
+      "filter": "https://m.facebook.com/",
+      "scripts": [
+        "main.js"
+      ]
+    }
+  ],
+  "icons": {
+    "128": "/icons/fb_128.png"
+  }
+}
